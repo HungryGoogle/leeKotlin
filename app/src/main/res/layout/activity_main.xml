@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="deepin.firstdemo.MainActivity">
+
+    <TextView
+        android:id="@+id/id_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="结果将显示在这里" />
+
+    <Button
+        android:id="@+id/id_print_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打印log"/>
+    <Button
+        android:id="@+id/id_int_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="数字求和"/>
+    <Button
+        android:id="@+id/id_int_sum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="数字求和2"/>
+
+    <Button
+        android:id="@+id/id_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="字符串"/>
+    <Button
+        android:id="@+id/id_string_to_int"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="字符串转整形"/>
+    <Button
+        android:id="@+id/id_if"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="if"/>
+    <Button
+        android:id="@+id/id_for"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="for"/>
+    <Button
+        android:id="@+id/id_while"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="while"/>
+
+</LinearLayout>
